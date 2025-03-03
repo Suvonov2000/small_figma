@@ -1,3 +1,4 @@
+import Category from "./components/category";
 import Flayer from "./components/flayer";
 import Navbar from "./components/navbar";
 import Sales from "./components/Sales";
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Flayer />
       <Sales />
+      <Category />
     </div>
   );
 }

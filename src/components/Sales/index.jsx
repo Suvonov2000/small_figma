@@ -10,8 +10,8 @@ import { Rate } from "antd";
 const Cards = (props) => {
   return (
     <div>
-      <div className="w-[270px] h-[350px]">
-        <div className="w-full h-[250px] bg-[#F5F5F5]">
+      <div className="w-[270px] h-[350px] ">
+        <div className="w-full h-[250px] bg-[#F5F5F5] mt-[30px]">
           <div className="pt-[20px] pl-[20px] flex relative">
             <div className="w-[55px] h-[26px] bg-[#DB4444] rounded-[4px]">
               <h3 className="text-white text-center pt-[3px] text-[12px]">
