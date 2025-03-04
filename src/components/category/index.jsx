@@ -8,7 +8,7 @@ const Categories = () => {
   return (
     <div className="flex">
       <div className="w-[170px] h-[145px] border border-black flex flex-col items-center justify-center gap-[15px] mt-[30px] ">
-        <MobileOutlined className=" " />
+        <MobileOutlined />
         <h3>Phones</h3>
       </div>
     </div>
