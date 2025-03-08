@@ -7,6 +7,7 @@ import Products from "./components/products";
 import Ad from "./components/ad";
 import Cart from "./components/cart";
 import Footer from "./components/footer";
+import Customs from "./components/customs";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Best_selling />
       <Ad />
       <Products />
+      <Customs />
       <Cart />
       {/* <Footer /> */}
     </div>
