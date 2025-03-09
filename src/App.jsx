@@ -21,7 +21,7 @@ function App() {
       <Products />
       <Customs />
       <Cart />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

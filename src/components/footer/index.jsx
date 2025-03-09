@@ -4,45 +4,48 @@ import {
   TwitterOutlined,
   InstagramOutlined,
   LinkedinOutlined,
+  CopyrightOutlined,
 } from "@ant-design/icons";
 
 const Footer = () => {
   return (
-    <div className="w-[90%] h-[440px] m-auto flex-col mt-10">
-      <div className="w-full flex justify-between pt-20">
+    <div className="w-[90%] h-[440px] m-auto flex-col mt-10 bg-black">
+      <div className="w-full flex justify-around pt-20">
         <div className="flex flex-col gap-[15px]">
-          <h1>Exclusive</h1>
-          <p>Subcribe</p>
-          <p>Get 10% off your first order</p>
+          <b className="text-white">Exclusive</b>
+          <p className="text-white">Subcribe</p>
+          <p className="text-white">Get 10% off your first order</p>
           <Input
-            className="w-[216px] h-[48px]"
+            className="w-[216px] h-[48px] text-[#FAFAFA]"
             placeholder="Enter Your Email"
           />
         </div>
         <div className="flex flex-col gap-[15px]">
-          <h1>Support</h1>
-          <p>111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</p>
-          <p>exclusive@gmail.com</p>
-          <p>+88015-88888-9999</p>
+          <b className="text-white">Support</b>
+          <p className="text-white w-[175px]">
+            111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.
+          </p>
+          <p className="text-white">exclusive@gmail.com</p>
+          <p className="text-white">+88015-88888-9999</p>
         </div>
         <div className="flex flex-col gap-[15px]">
-          <h1>Account</h1>
-          <p>My Account</p>
-          <p>Login / Register</p>
-          <p>Cart</p>
-          <p>Whishlist</p>
-          <p>Shop</p>
+          <b className="text-white">Account</b>
+          <p className="text-white">My Account</p>
+          <p className="text-white">Login / Register</p>
+          <p className="text-white">Cart</p>
+          <p className="text-white">Whishlist</p>
+          <p className="text-white">Shop</p>
         </div>
         <div className="flex flex-col gap-[15px]">
-          <h1>Quick Link</h1>
-          <p>Privacy Policy</p>
-          <p>Term Of Use</p>
-          <p>Faq</p>
-          <p>Contact</p>
+          <b className="text-white">Quick Link</b>
+          <p className="text-white">Privacy Policy</p>
+          <p className="text-white">Term Of Use</p>
+          <p className="text-white">Faq</p>
+          <p className="text-white">Contact</p>
         </div>
         <div className="flex flex-col gap-[15px]">
-          <h1>Download App</h1>
-          <h3>Save $3 with App New User Only</h3>
+          <b className="text-white">Download App</b>
+          <p className="text-white">Save $3 with App New User Only</p>
           <div className="w-[full] h-[80px] relative">
             <div className="flex-1 flex ">
               <div className="flex-1">
@@ -71,15 +74,16 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex gap-6">
-            <FacebookOutlined />
-            <TwitterOutlined />
-            <InstagramOutlined />
-            <LinkedinOutlined />
+            <FacebookOutlined className="text-white" />
+            <TwitterOutlined className="text-white" />
+            <InstagramOutlined className="text-white" />
+            <LinkedinOutlined className="text-white" />
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center  mt-20">
-        <h1>Copyright Rimel 2022. All right reserved</h1>
+      <div className="flex items-center justify-center gap-[5px]  mt-20">
+        <CopyrightOutlined className="text-white" />
+        <h1 className="text-white">Copyright Rimel 2022. All right reserved</h1>
       </div>
     </div>
   );
