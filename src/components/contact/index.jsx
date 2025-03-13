@@ -49,7 +49,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="flex gap-[30px] mt-[100px] mb-[100px]">
+      <div className="grid grid-cols-4 gap-[30px] mt-[100px] mb-[100px]">
         <div className="w-[270px] h-[230px] border border-solid flex flex-col items-center justify-center gap-5 ">
           <div className="flex items-center justify-center">
             <div className="w-[80px] h-[80px] rounded-full bg-gray-200 flex items-center justify-center">
@@ -115,75 +115,84 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="w-full flex gap-[30px]">
-        <div className="w-[370px] h-[564px]">
-          <div className="flex items-center justify-center bg-[#F5F5F5]">
-            <img
-              className="h-[391px]"
-              src="https://s3-alpha-sig.figma.com/img/0881/49fd/5afc043392ee3cbb529f429b3e2098d3?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=rtMgKPPrD0Y8nzYjsE8nsbpwHbbGpmVBIAcdrJ-vvKG79HJjlQkwDlHgNROxHMaV9zwje46IkAV1dHxtjxn3qNHxmjPBIJpgrY5UQ8bX6HwZv5SEVZwWncyYnDS4JKeQq1MD-KXYuxGtlsrL6ZzB6-BYoqahZ2PC8h5cz4SHS5gf~Y-KIazhq6U7b1zATWsNqmhEPfgPTthPOIc8rOGqxxvB2UAkr0eDYNfi6BiZugV9LAH7skgtJLCgMqAT6MMDgsqcrp367r26Bv9UbNpiQYwzKs~Fbu1W2dF1dliKA8y~LfkoNkXI5njBlGQI-Hrq8k4Fx04ri5ymEDt8WxF3rw__"
-              alt=""
-            />
+      <div className="w-full flex flex-col">
+        <div className="grid grid-cols-3 gap-[40px]">
+          <div className="w-[370px] h-[564px]">
+            <div className="flex items-center justify-center bg-[#F5F5F5]">
+              <img
+                className="h-[391px]"
+                src="https://s3-alpha-sig.figma.com/img/0881/49fd/5afc043392ee3cbb529f429b3e2098d3?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=rtMgKPPrD0Y8nzYjsE8nsbpwHbbGpmVBIAcdrJ-vvKG79HJjlQkwDlHgNROxHMaV9zwje46IkAV1dHxtjxn3qNHxmjPBIJpgrY5UQ8bX6HwZv5SEVZwWncyYnDS4JKeQq1MD-KXYuxGtlsrL6ZzB6-BYoqahZ2PC8h5cz4SHS5gf~Y-KIazhq6U7b1zATWsNqmhEPfgPTthPOIc8rOGqxxvB2UAkr0eDYNfi6BiZugV9LAH7skgtJLCgMqAT6MMDgsqcrp367r26Bv9UbNpiQYwzKs~Fbu1W2dF1dliKA8y~LfkoNkXI5njBlGQI-Hrq8k4Fx04ri5ymEDt8WxF3rw__"
+                alt=""
+              />
+            </div>
+
+            <div className="flex flex-col mt-[20px]">
+              <div className="flex flex-col">
+                <h1 className="text-[32px] ">Tom Cruise</h1>
+                <h3 className="text-[16px]">Founder & Chairman</h3>
+              </div>
+              <div className="flex mt-[10px] gap-5">
+                <TwitterOutlined />
+                <InstagramOutlined />
+                <LinkedinOutlined />
+              </div>
+            </div>
           </div>
 
-          <div className="flex flex-col mt-[20px]">
-            <div className="flex flex-col">
-              <h1 className="text-[32px] ">Tom Cruise</h1>
-              <h3 className="text-[16px]">Founder & Chairman</h3>
+          <div className="w-[370px] h-[564px]">
+            <div className="flex items-center justify-center bg-[#F5F5F5]">
+              <img
+                className="h-[391px]"
+                src="https://s3-alpha-sig.figma.com/img/8438/eab9/a2fe88af0272adecd83422d0cb7e20d7?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=E4sOMqlUfoxcewJyeNPmnzGjvT7YdDR4rXJgahFIzo2Fdul~UnASdIHQSZcO2KdDoStnKEpn8-Q1UG3u8RRZjkjWr0PKZ51nACHDZUGhVxr3ftvlX~CDxWLqeAs0y0q416zz5wknu5EzjhwdWaAmTWSpF0u1e902ODPcFDvwQqefUuBIQo46NIQv7luyVYZdjcT96hcEgryy6FJKa78ozMDkn~B-bpIkViyiBT1pUFM8MM0iItIxc4FrE5IX1dtIjKvFCTAT68RVOJdYQd9J1hc~MJGrGk~DO8akHDtAoUADF2za2C5HhvWNKzUbvmTTRtI2RazF42DVIt6MwRVn2Q__"
+                alt=""
+              />
             </div>
-            <div className="flex mt-[10px] gap-5">
-              <TwitterOutlined />
-              <InstagramOutlined />
-              <LinkedinOutlined />
+
+            <div className="flex flex-col mt-[20px]">
+              <div className="flex flex-col">
+                <h1 className="text-[32px] ">Emma Watson</h1>
+                <h3 className="text-[16px]">Managing Director</h3>
+              </div>
+              <div className="flex mt-[10px] gap-5">
+                <TwitterOutlined />
+                <InstagramOutlined />
+                <LinkedinOutlined />
+              </div>
+            </div>
+          </div>
+
+          <div className="w-[370px] h-[564px]">
+            <div className="flex items-center justify-center bg-[#F5F5F5]">
+              <img
+                className="h-[391px]"
+                src="https://s3-alpha-sig.figma.com/img/ede4/8f2b/5df8103b281240ce5bafe5dd7d215ab8?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MvS7ga1CC-R35aKjFZeqwHEKceSybMcAJHvtoiWTzKg1M4ngfKQrF22Oi0bqJOUsSipqIxCsfDm1kQp9KnjyB8JrreHpv4eH9WjbkL3QVjqwhNU9aXh~KCuPBDgwmAXofMYogBcz4fR-6tovT6-H2RlQWgIB9JyD4lYhlUZ4P69tdcmVkysSxwUI2BSYkPdze~tbGkoMmT0FBmDdU77af3JTIJjVRUEMtPhBHVQrtnQ-DF10WcZTjjdx2V6HW2eGmcus4KSUwdUA95zIORiZIDRB7DRbG5C7flusrjT-D6FRr0LdyGOFN2E1xbnQJnHyY0~W5048AbDcJlvu5zE82w__"
+                alt=""
+              />
+            </div>
+
+            <div className="flex flex-col mt-[20px]">
+              <div className="flex flex-col">
+                <h1 className="text-[32px] ">Will Smith</h1>
+                <h3 className="text-[16px]">Product Designer</h3>
+              </div>
+              <div className="flex mt-[10px] gap-5">
+                <TwitterOutlined />
+                <InstagramOutlined />
+                <LinkedinOutlined />
+              </div>
             </div>
           </div>
         </div>
-
-        <div className="w-[370px] h-[564px]">
-          <div className="flex items-center justify-center bg-[#F5F5F5]">
-            <img
-              className="h-[391px]"
-              src="https://s3-alpha-sig.figma.com/img/8438/eab9/a2fe88af0272adecd83422d0cb7e20d7?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=E4sOMqlUfoxcewJyeNPmnzGjvT7YdDR4rXJgahFIzo2Fdul~UnASdIHQSZcO2KdDoStnKEpn8-Q1UG3u8RRZjkjWr0PKZ51nACHDZUGhVxr3ftvlX~CDxWLqeAs0y0q416zz5wknu5EzjhwdWaAmTWSpF0u1e902ODPcFDvwQqefUuBIQo46NIQv7luyVYZdjcT96hcEgryy6FJKa78ozMDkn~B-bpIkViyiBT1pUFM8MM0iItIxc4FrE5IX1dtIjKvFCTAT68RVOJdYQd9J1hc~MJGrGk~DO8akHDtAoUADF2za2C5HhvWNKzUbvmTTRtI2RazF42DVIt6MwRVn2Q__"
-              alt=""
-            />
-          </div>
-
-          <div className="flex flex-col mt-[20px]">
-            <div className="flex flex-col">
-              <h1 className="text-[32px] ">Emma Watson</h1>
-              <h3 className="text-[16px]">Managing Director</h3>
-            </div>
-            <div className="flex mt-[10px] gap-5">
-              <TwitterOutlined />
-              <InstagramOutlined />
-              <LinkedinOutlined />
-            </div>
-          </div>
-        </div>
-
-        <div className="w-[370px] h-[564px]">
-          <div className="flex items-center justify-center bg-[#F5F5F5]">
-            <img
-              className="h-[391px]"
-              src="https://s3-alpha-sig.figma.com/img/ede4/8f2b/5df8103b281240ce5bafe5dd7d215ab8?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MvS7ga1CC-R35aKjFZeqwHEKceSybMcAJHvtoiWTzKg1M4ngfKQrF22Oi0bqJOUsSipqIxCsfDm1kQp9KnjyB8JrreHpv4eH9WjbkL3QVjqwhNU9aXh~KCuPBDgwmAXofMYogBcz4fR-6tovT6-H2RlQWgIB9JyD4lYhlUZ4P69tdcmVkysSxwUI2BSYkPdze~tbGkoMmT0FBmDdU77af3JTIJjVRUEMtPhBHVQrtnQ-DF10WcZTjjdx2V6HW2eGmcus4KSUwdUA95zIORiZIDRB7DRbG5C7flusrjT-D6FRr0LdyGOFN2E1xbnQJnHyY0~W5048AbDcJlvu5zE82w__"
-              alt=""
-            />
-          </div>
-
-          <div className="flex flex-col mt-[20px]">
-            <div className="flex flex-col">
-              <h1 className="text-[32px] ">Will Smith</h1>
-              <h3 className="text-[16px]">Product Designer</h3>
-            </div>
-            <div className="flex mt-[10px] gap-5">
-              <TwitterOutlined />
-              <InstagramOutlined />
-              <LinkedinOutlined />
-            </div>
-          </div>
+        <div className="flex gap-2  justify-center">
+          <div className="w-[12px] h-[12px] rounded-[50px] bg-gray-300"></div>
+          <div className="w-[12px] h-[12px] rounded-[50px] bg-gray-300"></div>
+          <div className="w-[12px] h-[12px] rounded-[50px] bg-[#DB4444]"></div>
+          <div className="w-[12px] h-[12px] rounded-[50px] bg-gray-300"></div>
+          <div className="w-[12px] h-[12px] rounded-[50px] bg-gray-300"></div>
         </div>
       </div>
 
-      <div className="w-full flex items-center justify-around">
+      <div className="w-full flex items-center justify-around mt-[100px] mb-[100px]">
         <div className="w-[249px] h-[161px]">
           <div className="flex items-center justify-center">
             <div className="w-[80px] h-[80px] rounded-full bg-gray-200 flex items-center justify-center">

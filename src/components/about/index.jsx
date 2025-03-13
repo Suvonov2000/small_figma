@@ -4,7 +4,7 @@ import { Input, Flex } from "antd";
 const { TextArea } = Input;
 const About = () => {
   return (
-    <div className="w-[90%] m-auto">
+    <div className="w-[90%] m-auto mb-[100px]">
       <div className=" mt-[50px]">
         <h3 className="text-[14px]">
           <span className="text-gray-400 text-[14px]">home /</span> about
