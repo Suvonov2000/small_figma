@@ -3,7 +3,7 @@ import React from "react";
 
 const Flayer = () => {
   return (
-    <div className="w-[1150px] h-[344px] bg-black flex items-center justify-between ml-[40px]">
+    <div className="w-full h-[344px] bg-black flex items-center justify-between ml-[40px]">
       <div className="pl-[64px] flex-1">
         <div className="flex items-center gap-4">
           <img

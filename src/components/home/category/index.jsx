@@ -2,14 +2,20 @@ import {
   ArrowRightOutlined,
   ArrowLeftOutlined,
   MobileOutlined,
+  DesktopOutlined,
+  CameraOutlined,
+  CustomerServiceOutlined,
 } from "@ant-design/icons";
 
-const Categories = () => {
+import { IoLogoGameControllerA } from "react-icons/io";
+import { BsSmartwatch } from "react-icons/bs";
+
+const Categories = (props) => {
   return (
     <div className="flex">
       <div className="w-[170px] h-[145px] border border-black flex flex-col items-center justify-center gap-[15px] mt-[30px] ">
-        <MobileOutlined />
-        <h3>Phones</h3>
+        {props.icon}
+        {props.title}
       </div>
     </div>
   );
@@ -36,13 +42,13 @@ const Category = () => {
             </div>
           </div>
         </div>
-        <div className="flex gap-[40px]">
-          <Categories />
-          <Categories />
-          <Categories />
-          <Categories />
-          <Categories />
-          <Categories />
+        <div className="grid grid-cols-6 gap-[40px]">
+          <Categories icon={<MobileOutlined />} title="Phones" />
+          <Categories icon={<DesktopOutlined />} title="Computers" />
+          <Categories icon={<BsSmartwatch />} title="Smartwatches" />
+          <Categories icon={<CameraOutlined />} title="Camera" />
+          <Categories icon={<CustomerServiceOutlined />} title="Headphones" />
+          <Categories icon={<IoLogoGameControllerA />} title="Gaming" />
         </div>
       </div>
     </div>

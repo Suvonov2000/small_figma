@@ -10,7 +10,7 @@ import { Rate } from "antd";
 const Cards = (props) => {
   return (
     <div>
-      <div className="w-[265px] h-[350px] ">
+      <div className=" h-[350px] ">
         <div className="w-full h-[250px] bg-[#F5F5F5] mt-[30px]">
           <div className="pt-[20px] pl-[20px] flex relative">
             <div className="w-[55px] h-[26px] bg-[#DB4444] rounded-[4px]">
@@ -101,7 +101,7 @@ const Sales = () => {
         </div>
       </div>
 
-      <div className="flex gap-[20px]">
+      <div className="grid grid-cols-5 gap-[20px]">
         <Cards
           img={
             "https://s3-alpha-sig.figma.com/img/5d5c/2e52/50752d55f8b60f2aa2923183dadbc135?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=QoPE1xfyhTKLQUs65WgTKi6aXbaOf2ftJpWp8VkrvIkqMtzhUDGHdALPgC96cpb49oozocup-FhZNm99kqY1uU10KV2HpUDUxZZaNu-5lKuvEMuKx9Q~YI6WE1KP62kr-0~iQDE~PYckleUSlYMTHo~s~cQueS-JpzBCvBKOgRAd0Ra9Re0MWmYUaLv5Po3zEpII~tIJX4gVCNFRU7SJrWvkZeMwLFhELQj-p~3GQgD3PjBW9zlMDjj8Qzqvn50gJbnD7oHiYYypklGQ~EdD5-pn28-0YVOxVd-vDD00AKivyMpxpWq8s2PbILbSCkG6rpbofIfr6RGBAIr~ZFFgQw__"

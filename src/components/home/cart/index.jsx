@@ -1,6 +1,7 @@
 import {
   TruckOutlined,
   CheckCircleOutlined,
+  CustomerServiceOutlined,
   ArrowUpOutlined,
 } from "@ant-design/icons";
 
@@ -30,7 +31,7 @@ const Cart = () => {
           <div className="w-[80px] h-[80px] rounded-full bg-gray-200 flex items-center justify-center">
             <div className="w-[58px] h-[58px] rounded-full bg-black">
               <div className="w-[40px] h-[40px] flex items-center justify-center">
-                <CheckCircleOutlined className="text-white pl-[18px] pt-[17px]" />
+                <CustomerServiceOutlined className="text-white pl-[18px] pt-[17px]" />
               </div>
             </div>
           </div>
@@ -46,7 +47,7 @@ const Cart = () => {
           <div className="w-[80px] h-[80px] rounded-full bg-gray-200 flex items-center justify-center">
             <div className="w-[58px] h-[58px] rounded-full bg-black">
               <div className="w-[40px] h-[40px] flex items-center justify-center">
-                <TruckOutlined className="text-white pl-[18px] pt-[17px]" />
+                <CheckCircleOutlined className="text-white pl-[18px] pt-[17px]" />
               </div>
             </div>
           </div>

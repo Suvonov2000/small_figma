@@ -1,6 +1,7 @@
 import { Button, Select } from "antd";
 import Search from "antd/es/transfer/search";
 import { HeartOutlined, ShoppingCartOutlined } from "@ant-design/icons";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
@@ -41,10 +42,15 @@ const Navbar = () => {
         <div className="w-[90%] h-[38px] mt-10 mb-4 m-auto flex items-center justify-between">
           <div className="text-2xl font-semibold">Exclusive</div>
           <div className="flex item-center gap-12">
-            <h3 className="cursor-pointer text-base">Home</h3>
-            <h3 className="cursor-pointer text-base">Contact</h3>
-            <h3 className="cursor-pointer text-base">About</h3>
-            <h3 className="cursor-pointer text-base">Sign up</h3>
+            <Link to="/" className="cursor-pointer text-base">
+              Home
+            </Link>
+            <Link to="/contact" className="cursor-pointer text-base">
+              Contact
+            </Link>
+            <Link to="/about" className="cursor-pointer text-base">
+              About
+            </Link>
           </div>
           <div className="flex items-center gap-6">
             <Search placeholder="Search" />
